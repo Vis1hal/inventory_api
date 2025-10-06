@@ -39,12 +39,8 @@ This implementation demonstrates clean Django patterns, robust business logic, a
 - **Base URL**: `http://127.0.0.1:8000`
 - Test with Postman, curl, or DRF's browsable API (auto-generated at `/api/`).
 
-Example curl for creating a product:
-```bash
-curl -X POST http://127.0.0.1:8000/api/products/ \
-  -H "Content-Type: application/json" \
-  -d '{"name": "Test Product", "description": "A sample item", "stock_quantity": 10, "low_stock_threshold": 5}'
-```
+
+
 
 ## Setup Instructions
 
@@ -162,4 +158,4 @@ inventory-management-system-api/
 This is a challenge submission, but PRs welcome! Fork, branch, and submit. Questions? Reach out via GitHub issues or [your-email@example.com].
 
 **Built for the Associate Software Engineer Challenge – October 2025**  
-By [Your Name] | [Your LinkedIn/GitHub] | [Loom Demo Video Link if applicable]
+By Vishal Jhariya |
